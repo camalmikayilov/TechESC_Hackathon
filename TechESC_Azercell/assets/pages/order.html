@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Start Shortcut Icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="../image/Logomuz.png" />
+  <!-- End Shortcut Icon -->
+
+  <title>Confirm</title>
+</head>
+
+<body class="gradient-background">
+  <div class="point-bar-container">
+    <div class="point-bar">
+      <div class="point-counter"></div>
+    </div>
+    <div class="rank-container">
+      <div class="rank">Rookie</div>
+      <div class="rank">Bronze</div>
+      <div class="rank">Silver</div>
+      <div class="rank">Gold</div>
+    </div>
+    <div class="payment">
+      <h5>
+        <center>Card Payment</center>
+        </h1>
+        <form>
+          <label for="cardNumber">Card Number:</label>
+          <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456">
+
+          <label for="expiryDate">Expiry Date:</label>
+          <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY">
+
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" placeholder="123">
+
+          <label for="name">Name on Card:</label>
+          <input type="text" id="name" name="name" placeholder="Jamal Mikayilov">
+
+        </form>
+    </div>
+    <button class="buy-button">Confirm</button>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
